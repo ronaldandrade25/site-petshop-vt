@@ -586,7 +586,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCmjtUsxKgXQd35xp2gk4Ap0QlYmGWEGYI",
+  apiKey: "AIzaSyCmjtUsxKgXQd35xp2gk4Ap0QlYmGWEGYI",
   authDomain: "petshop-90f21.firebaseapp.com",
   projectId: "petshop-90f21",
   storageBucket: "petshop-90f21.firebasestorage.app",
