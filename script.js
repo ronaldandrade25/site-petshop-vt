@@ -586,21 +586,12 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-<<<<<<< HEAD
-  apiKey: "AIzaSyCmjtUsxKgXQd35xp2gk4Ap0QlYmGWEGYI",
-  authDomain: "petshop-90f21.firebaseapp.com",
-  projectId: "petshop-90f21",
-  storageBucket: "petshop-90f21.firebasestorage.app",
-  messagingSenderId: "746188747686",
-  appId: "1:746188747686:web:d95433d74e8e4291ff9567"
-=======
-    apiKey: "", // COLOQUE_SUA_API_KEY_AQUI
-  authDomain: "", // COLOQUE_SEU_AUTH_DOMAIN_AQUI
-  projectId: "", // COLOQUE_SEU_PROJECT_ID_AQUI
-  storageBucket: "", // COLOQUE_SEU_STORAGE_BUCKET_AQUI
-  messagingSenderId: "", // COLOQUE_SEU_MESSAGING_SENDER_ID_AQUI
-  appId: "" // COLOQUE_SEU_APP_ID_AQUI
->>>>>>> 3fe0ed2ecf3078d11014674419c5032e3edf77ff
+   apiKey: "AIzaSyCNCABN6R4yLP8vTVpYSsVyvdwpLlKdrVU",
+  authDomain: "operacao50k.firebaseapp.com",
+  projectId: "operacao50k",
+  storageBucket: "operacao50k.firebasestorage.app",
+  messagingSenderId: "512212492127",
+  appId: "1:512212492127:web:07c6a83ac787e8d79260ea"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -694,7 +685,7 @@ function renderProfissionaisNoSite() {
         {
           id: '',
           nome: 'Rodrigo dos Anjos',
-          fotoUrl: './assets/ra-rodrigo.jpg',
+          fotoUrl: './assets/ra-petshop.png',
           whatsapp: '5581985082010',
           colecao: 'reservas_rodrigotorre2',
           fimExpediente: '18:30',
@@ -712,7 +703,7 @@ function renderProfissionaisNoSite() {
     const dataFolga = Array.isArray(p.diasFolga) ? `data-folgas='${JSON.stringify(p.diasFolga)}'` : '';
 
     card.innerHTML = `
-      <img src="${p.fotoUrl || './assets/ra-rodrigo.jpg'}" alt="${p.nome}" class="service-img">
+      <img src="${p.fotoUrl || './assets/ra-petshop.png'}" alt="${p.nome}" class="service-img">
       <div class="haircut-info">
         <strong>${p.nome}</strong>
         <div class="btn-actions">

@@ -42,7 +42,7 @@ Site público onde os **clientes agendam e reagendam horários** (pet shop).
 Os dois projetos só conversam se usarem **o mesmo `firebaseConfig`** (mesmo `projectId`).
 
 ### 1. Projeto Firebase
-O site já aponta para o projeto **`petshop-90f21`** (bloco `firebaseConfig` do `script.js`). Para usar outro projeto: [Firebase Console](https://console.firebase.google.com/) → *Project settings → Your apps → Web* → copie o `firebaseConfig` e substitua no `script.js`. Ative o **Firestore Database**.
+O site já aponta para o projeto **`operacao50k`** (bloco `firebaseConfig` do `script.js`). Para usar outro projeto: [Firebase Console](https://console.firebase.google.com/) → *Project settings → Your apps → Web* → copie o `firebaseConfig` e substitua no `script.js`. Ative o **Firestore Database**.
 
 ### 2. Configurar o painel ADM com o mesmo projeto
 No projeto [`adm-petshop`](../adm-petshop), abra `firebase.js` e cole **o mesmo objeto `firebaseConfig`** deste `script.js` (`apiKey`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId`). O `projectId` precisa ser idêntico nos dois.
